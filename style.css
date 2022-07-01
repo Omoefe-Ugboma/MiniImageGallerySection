@@ -18,5 +18,9 @@ body{
 
 .imgs{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* Instead of using this */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* You can always use this */
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
 }
